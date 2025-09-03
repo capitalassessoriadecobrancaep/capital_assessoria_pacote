@@ -1,0 +1,7 @@
+
+PASSO A PASSO RESUMO (rápido)
+1) Importar banco: executar sistema/database/schema.sql e sistema/database/seed.sql no MySQL.
+2) Backend: configurar arquivo .env (sistema/backend/.env.example), npm install, npm start - deploy em Render (conectar GitHub).
+3) Frontend: configurar REACT_APP_API_URL, npm install, npm start - deploy em Vercel (conectar GitHub).
+4) Trocar senhas padrão e JWT_SECRET, configurar SMTP e HTTPS.
+5) Testar rotas e funcionalidades: /health, /auth/login, /devedores, /cobrancas.
